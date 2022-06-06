@@ -3,3 +3,60 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/*inizio header*/
+
+header{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    z-index: 999;
+}
+
+.header-text button{
+    height: 30px;
+    background-color: gray;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.header-text a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+/*fine header*/
+
+/*inizio main*/
+
+main{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+    padding-top: 50px;
+}
+
+.card-image{
+    background-image: url(https://i.picsum.photos/id/237/200/300.jpg?hmac=TmmQSbShHz9CdQm0NkEjx1Dyh_Y984R9LpNrpvH2D_U);
+    height: 140px;
+    width: 13vw;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin: 20px 3px 0px 3px;
+}
+
+.card-text{
+    color: white;
+    background-color: gray;
+    padding: 5px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
