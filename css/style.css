@@ -65,6 +65,7 @@ main{
 
 /*fine main*/
 
+
 /*inizio footer*/
 
 footer{
@@ -129,4 +130,21 @@ footer{
     text-decoration: none;
     font-weight: bold;
     line-height: 50px;
+}
+
+/*fine footer*/
+
+
+/*inizio hover*/
+
+.icon1:hover{
+    color: rgba(114, 235, 101, 0.4);
+}
+
+.icon2:hover{
+    color: rgba(114, 235, 101, 0.4);
+}
+
+.end-footer:hover a{
+    color: rgba(142, 141, 150, 0.4);
 }
