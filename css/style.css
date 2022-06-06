@@ -4,11 +4,15 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: black;
+}
+
 /*inizio header*/
+
 
 header{
     width: 100%;
-    background-color: black;
     display: flex;
     justify-content: flex-end;
     position: fixed;
@@ -34,29 +38,95 @@ header{
 /*inizio main*/
 
 main{
-    background-color: black;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-content: flex-start;
-    padding-top: 50px;
+    padding-top: 30px;
 }
 
 .card-image{
     background-image: url(https://i.picsum.photos/id/237/200/300.jpg?hmac=TmmQSbShHz9CdQm0NkEjx1Dyh_Y984R9LpNrpvH2D_U);
-    height: 140px;
+    height: 120px;
     width: 13vw;
     background-size: cover;
     background-position: center;
     position: relative;
-    margin: 20px 3px 0px 3px;
+    margin: 20px 2px 0px 2px;
 }
 
 .card-text{
     color: white;
-    background-color: gray;
-    padding: 5px;
+    background-color: #4A4A4A;
     position: absolute;
     left: 0;
     bottom: 0;
+}
+
+/*fine main*/
+
+/*inizio footer*/
+
+footer{
+    width: 100%;
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.footer-icon1{
+    color: white;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.icon1{
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+    padding: 0px 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.icon1 i, .icon2 i{
+    padding-bottom: 5px;
+}
+
+
+.footer-icon2{
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.icon2{
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+    padding: 0px 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.green i{
+    color: green;
+}
+
+.end-footer{
+    width: 10%;
+    background-color: #4A4A4A;
+    text-align: center;
+}
+
+.end-footer a{
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 50px;
 }
