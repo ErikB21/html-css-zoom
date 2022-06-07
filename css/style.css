@@ -21,17 +21,15 @@ header{
 
 .header-text button{
     height: 30px;
-    background-color: gray;
+    background-color: #4A4A4A;
     border-radius: 10px;
     margin: 5px;
+    color: white;
+    border-radius: 25px;
+    padding: 5px;
+    border: none;
 }
 
-.header-text a{
-    text-decoration: none;
-    color: white;
-    padding: 5px;
-    border-radius: 50%;
-}
 
 /*fine header*/
 
@@ -40,9 +38,9 @@ header{
 main{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     align-content: flex-start;
-    padding-top: 30px;
+    padding-top: 50px;
 }
 
 .card-image{
@@ -52,7 +50,7 @@ main{
     background-size: cover;
     background-position: center;
     position: relative;
-    margin: 20px 2px 0px 2px;
+    border: 5px solid black;
 }
 
 .card-text{
@@ -76,15 +74,14 @@ footer{
     margin-top: 30px;
 }
 
-.footer-icon1{
+.footer-left{
     color: white;
     text-align: left;
     display: flex;
     flex-direction: row;
 }
 
-
-.icon1{
+.icon1, .icon2{
     display: flex;
     flex-direction: column;
     font-size: 13px;
@@ -97,8 +94,7 @@ footer{
     padding-bottom: 5px;
 }
 
-
-.footer-icon2{
+.footer-center{
     color: white;
     text-align: center;
     display: flex;
@@ -106,26 +102,17 @@ footer{
     justify-content: space-around;
 }
 
-.icon2{
-    display: flex;
-    flex-direction: column;
-    font-size: 13px;
-    padding: 0px 10px;
-    text-align: center;
-    justify-content: center;
-}
-
 .green i{
     color: green;
 }
 
-.end-footer{
+.footer-right{
     width: 10%;
     background-color: #4A4A4A;
     text-align: center;
 }
 
-.end-footer a{
+.footer-right a{
     color: red;
     text-decoration: none;
     font-weight: bold;
@@ -145,6 +132,6 @@ footer{
     color: rgba(114, 235, 101, 0.4);
 }
 
-.end-footer:hover a{
+.footer-right:hover a{
     color: rgba(142, 141, 150, 0.4);
 }
